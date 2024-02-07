@@ -1,5 +1,12 @@
+package leetcodeQuestions.cyclicSort;
+
 class FindMissingPositive {
-    public int firstMissingPositive(int[] arr) {
+    public static void main(String[] args) {
+        int[] nums = {1,4,-1,-5,3};
+        int result = firstMissingPositive(nums);
+        System.out.println(result);
+    }
+    public static int firstMissingPositive(int[] arr) {
         int i = 0;
         while (i < arr.length) {
             int correct = arr[i]-1;

@@ -1,9 +1,12 @@
+package leetcodeQuestions.cyclicSort;
+
 class MissingNumber {
     public static void main(String[] args) {
+        int[] nums = {0,3,2,4,5,6,7};
         int result = missingNumber(nums);
-        return result;
+        System.out.println(result);
     }
-    public int missingNumber(int[] nums) {
+    public static int missingNumber(int[] nums) {
         int i = 0;
         while (i < nums.length) {
             int correct = nums[i];
