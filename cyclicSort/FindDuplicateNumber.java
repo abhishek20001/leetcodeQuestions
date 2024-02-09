@@ -1,8 +1,11 @@
+package leetcodeQuestions.cyclicSort;
+
 class FindDuplicateNumber {
     public static void main(String[] args) {
-        return findDuplicate(nums);
+        int[] nums = {1,3,4,2,2};
+        System.out.println(findDuplicate(nums));
     }
-    public int findDuplicate(int[] arr) {
+    public static int findDuplicate(int[] arr) {
         int i = 0;
         while(i < arr.length) {
             if (arr[i] != i+1) {

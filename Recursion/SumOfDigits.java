@@ -1,7 +1,7 @@
 package leetcodeQuestions.Recursion;
 class SumOfDigits {
         public static void main(String[] args) {
-                int ans = sumOfDigits(1342);
+                int ans = sumOfDigits(6342);
                 System.out.println(ans);
         }
 
@@ -9,6 +9,6 @@ class SumOfDigits {
                 if (n/10==0) {
                         return n;
                 }
-                return n%10+sumOfDigits(n/10);
+                return (n%10)+sumOfDigits(n/10);
         }
 }
