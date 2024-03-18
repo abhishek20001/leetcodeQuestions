@@ -1,3 +1,7 @@
+package leetcodeQuestions.DailyChallenges;
+
+import java.util.HashMap;
+
 class ContiguousArrayMaxLength {
     public int findMaxLength(int[] nums) {
         for(int ind = 0;ind<nums.length;ind++){

@@ -1,5 +1,8 @@
 package leetcodeQuestions.DailyChallenges;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class InsertIntervals {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> ans = new ArrayList<>();

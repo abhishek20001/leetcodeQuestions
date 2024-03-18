@@ -1,3 +1,7 @@
+package leetcodeQuestions.DailyChallenges;
+
+import java.util.HashMap;
+
 class BinarySubarrayWithSum {
     public int numSubarraysWithSum(int[] nums, int goal) {
         HashMap<Integer, Integer> map = new HashMap<>();

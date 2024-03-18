@@ -1,3 +1,5 @@
+package leetcodeQuestions.DailyChallenges;
+
 class PivotInteger {
     public int pivotInteger(int n) {
         if (n == 1) {

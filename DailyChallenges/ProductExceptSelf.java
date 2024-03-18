@@ -1,3 +1,5 @@
+package leetcodeQuestions.DailyChallenges;
+
 class ProductExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         int[] prefixProduct = new int[nums.length];
